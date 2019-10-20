@@ -1,5 +1,8 @@
 package ru.kukatov.springcourse;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class ClassicalMusic implements Music {
 
     private ClassicalMusic(){}
@@ -8,14 +11,7 @@ public class ClassicalMusic implements Music {
         return new ClassicalMusic();
     }
 
-    public void doMyInit(){
-        System.out.println("Init doing");
-    }
 
-
-    public void doMyDestroy(){
-        System.out.println("Doing destroying");
-    }
 
 
     @Override
