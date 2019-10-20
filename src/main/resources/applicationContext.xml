@@ -10,25 +10,24 @@
 
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
-    <bean id="musicBean1"
+    <bean id="musicBean"
           class="ru.kukatov.springcourse.ClassicalMusic">
     </bean>
-    <bean id="musicBean2"
-          class="ru.kukatov.springcourse.RockMusic">
-    </bean>
-    <bean id="musicBean3"
-          class="ru.kukatov.springcourse.JazzMusic">
-    </bean>
+<!--    <bean id="musicBean2"-->
+<!--          class="ru.kukatov.springcourse.RockMusic">-->
+<!--    </bean>-->
+<!--    <bean id="musicBean3"-->
+<!--          class="ru.kukatov.springcourse.JazzMusic">-->
+<!--    </bean>-->
 
 
     <bean id ="musicPlayer"
-          class="ru.kukatov.springcourse.MusicPlayer">
-        <property name="musicList">
-                <list>
-                    <ref bean="musicBean1"/>
-                    <ref bean="musicBean2"/>
-                    <ref bean="musicBean3"/>
-                </list>
+          class="ru.kukatov.springcourse.MusicPlayer"
+    scope="prototype">
+        <property name="music" ref="musicBean">
+<!--
+
+-->
         </property>
 
 
