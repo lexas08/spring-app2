@@ -11,8 +11,16 @@
     <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
     <bean id="musicBean"
-          class="ru.kukatov.springcourse.ClassicalMusic">
+            class="ru.kukatov.springcourse.ClassicalMusic"
+            init-method="doMyInit"
+            destroy-method="doMyDestroy"
+            factory-method="getClassicalMusic">
     </bean>
+
+
+
+
+
 <!--    <bean id="musicBean2"-->
 <!--          class="ru.kukatov.springcourse.RockMusic">-->
 <!--    </bean>-->
@@ -21,18 +29,18 @@
 <!--    </bean>-->
 
 
-    <bean id ="musicPlayer"
-          class="ru.kukatov.springcourse.MusicPlayer"
-    scope="prototype">
-        <property name="music" ref="musicBean">
-<!--
+<!--    <bean id ="musicPlayer"-->
+<!--          class="ru.kukatov.springcourse.MusicPlayer"-->
+<!--    scope="prototype">-->
+<!--        <property name="music" ref="musicBean">-->
+<!--&lt;!&ndash;-->
 
--->
-        </property>
+<!--&ndash;&gt;-->
+<!--        </property>-->
 
 
-        <property name="name" value="${musicPlayer.name}"/>
-        <property name="volume" value="${musicPlayer.volume}"/>
-    </bean>
+<!--        <property name="name" value="${musicPlayer.name}"/>-->
+<!--        <property name="volume" value="${musicPlayer.volume}"/>-->
+<!--    </bean>-->
 
 </beans>
