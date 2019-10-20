@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ebc867-09f8-4dfc-9979-35204af6a63c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/kukatov/springcourse/JazzMusic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/kukatov/springcourse/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kukatov/springcourse/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/kukatov/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/kukatov/springcourse/TestSpring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kukatov/springcourse/MusicPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kukatov/springcourse/MusicPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/kukatov/springcourse/TestSpring.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/kukatov/springcourse/TestSpring.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +94,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1571499828381</updated>
-      <workItem from="1571499831968" duration="5247000" />
+      <workItem from="1571499831968" duration="5523000" />
+      <workItem from="1571577376005" duration="4087000" />
     </task>
     <task id="LOCAL-00001" summary="FIRST LESSON">
       <created>1571505338614</created>
@@ -103,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571506743651</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="THIRD LESSON">
+      <created>1571509210882</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571509210882</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,7 +129,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -123,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="FIRST LESSON" />
     <MESSAGE value="SECOND LESSON" />
-    <option name="LAST_COMMIT_MESSAGE" value="SECOND LESSON" />
+    <MESSAGE value="THIRD LESSON" />
+    <option name="LAST_COMMIT_MESSAGE" value="THIRD LESSON" />
   </component>
 </project>
